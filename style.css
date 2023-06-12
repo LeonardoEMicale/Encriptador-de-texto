@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --base-1: #757FB2; 
+    --base-2: #0A3871;
+    --colorText-1: #000000
+    --colorBorder-1: #222222
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+    background-color: var(--base-2);
+    color: var(--colorText-1);
+    padding: 2.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textareas {
+    overflow: auto;
+    padding: 5px;
+    border-color: var(--colorBorder-1);
+}
+
+.textinput {
+    width: 50%;
+    height: 200px;
+    resize: none;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+.textoutput {
+    width: 50%;
+    float: right;
+    height: 200px;
+    resize: none;
+    box-sizing: border-box;
+    pointer-events: none;
+    display:auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    
+}
+
+
+.copyright {
+    margin-right: 30%;
+}
+
+.creator {
+    margin-right: 10px;
+}
+
+.encryptbutton, .decryptbutton, .copytext {
+    background-color: var(--base-2);
+    border-color: var(--colorBorder-1)
+}
+
+.decryptbutton {
+    margin-right: 450px;
+}
+
+.encryptbutton {
+    margin-right: 20px;
+    margin-left: 3px;
+}
+
+.buttons button {
+    width: 100px;
+    height: 25px;
+    margin-top: 8px;
+}
+
+.copytext {
+    display: auto;
+}
+
